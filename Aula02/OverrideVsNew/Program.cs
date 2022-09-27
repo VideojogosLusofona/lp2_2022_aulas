@@ -2,9 +2,9 @@
 
 namespace OverrideVsNew
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Animal a0 = new Animal();
             Animal a1 = new Dog();
