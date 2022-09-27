@@ -2,9 +2,9 @@
 
 namespace Exercicio7
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Declarar os gatos
             Cat cat1, cat2;

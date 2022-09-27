@@ -2,9 +2,9 @@
 
 namespace Exercicio5
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Criar dois gatos usando os diferentes construtores
             Cat cat1 = new Cat("Lombriga");
