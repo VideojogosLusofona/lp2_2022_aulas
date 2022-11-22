@@ -17,7 +17,7 @@ namespace Observers
         public void Update(AbstractStringSubject sub)
         {
             // Save the last key pressed to a file
-            File.AppendAllText(filename, sub.Key);
+            File.AppendAllText(filename, sub.Item);
         }
     }
 }

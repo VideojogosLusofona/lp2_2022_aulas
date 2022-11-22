@@ -6,14 +6,14 @@ namespace Observers
     {
         private readonly ICollection<IObserver<AbstractStringSubject>> observers;
 
-        private string key;
+        private string item;
 
-        public string Key
+        public string Item
         {
-            get => key;
+            get => item;
             protected set
             {
-                key = value;
+                item = value;
                 foreach (IObserver<AbstractStringSubject> obs in observers)
                 {
                     obs.Update(this);

@@ -11,7 +11,7 @@ namespace Observers
             while ((key = Console.ReadKey(true).Key) != ConsoleKey.Escape)
             {
                 // Read key
-                Key = key.ToString();
+                Item = key.ToString();
             }
         }
     }

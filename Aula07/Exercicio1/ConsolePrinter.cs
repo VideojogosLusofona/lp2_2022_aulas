@@ -8,7 +8,7 @@ namespace Observers
         public void Update(AbstractStringSubject sub)
         {
             // Show the last key pressed
-            Console.Write(sub.Key);
+            Console.Write(sub.Item);
         }
     }
 }
