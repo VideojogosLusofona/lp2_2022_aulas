@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lazy", "Exercicio2\Lazy.csproj", "{DE6B6F57-608F-4A72-87E3-90916E25D6CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE6B6F57-608F-4A72-87E3-90916E25D6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6B6F57-608F-4A72-87E3-90916E25D6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6B6F57-608F-4A72-87E3-90916E25D6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6B6F57-608F-4A72-87E3-90916E25D6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
